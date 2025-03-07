@@ -6,25 +6,25 @@ const sponsors = [
     name: "SAB",
     logo: "/assets/SAB.jpg",
     description:
-      "The world's leading music streaming service, bringing millions of songs to fans worldwide.",
+      "South African Breweries (SAB) has been brewing excellence since 1895, uniting generations with world-class beers that celebrate South Africa’s vibrant spirit.",
   },
   {
     name: "MTN",
     logo: "/assets/MTN.png",
     description:
-      "Apple’s premium music streaming platform, offering exclusive content and high-fidelity audio.",
+      "MTN is a leading telecommunications company in Africa, providing mobile and digital services to millions, connecting people and businesses across the continent.",
   },
   {
     name: "Dept. of Sports, Art and Culture",
     logo: "/assets/dept-sac.jpg",
     description:
-      "A refreshing partner of the music industry, sponsoring top artists and live events.",
+      "The Department of Sport, Arts and Culture promotes South Africa’s heritage, creativity, and athletic excellence to inspire unity and national pride.",
   },
   {
     name: "SABC",
     logo: "/assets/sabc.png",
     description:
-      "High-performance audio products endorsed by the biggest names in the industry.",
+      "The South African Broadcasting Corporation (SABC) brings the nation together with powerful storytelling, breaking news, and world-class entertainment across TV, radio, and digital platforms.",
   },
 ];
 
