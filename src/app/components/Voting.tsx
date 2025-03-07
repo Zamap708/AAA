@@ -18,8 +18,8 @@ export default function Voting() {
             "url('/assets/AAA-Design-Concept.pdf-image-001 2.jpg')",
         }}
       >
-        <div className="absolute h-full w-full bg-[#EE8803] z-20 rotate-[90rad] right-[60%] "/>
-        <div className="absolute h-full w-full bg-[#EE8803] z-20 -rotate-[90rad] left-[70%] "/>
+        <div className="absolute h-full w-full bg-[#EE8803] z-20 rotate-[90rad] md:right-[60%] right-[80%] bottom-[60%] lg:bottom-[0%]  "/>
+        <div className="absolute h-full w-full bg-[#EE8803] z-20 -rotate-[90rad] md:left-[70%] left-[90%] bottom-[60%] lg:bottom-[20%]  "/>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -44,10 +44,6 @@ export default function Voting() {
         style={{ backgroundImage: "url('/assets/AAA-pattern.png')" }}
       >
         <motion.div
-          initial={{ opacity: 0.8, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
           className="relative h-24 w-24 md:h-3/5 md:w-1/5 flex-shrink-0"
         >
           <Image

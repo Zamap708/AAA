@@ -98,7 +98,7 @@ export default function Voting() {
             return (
               <div
                 key={index}
-                className={`relative rounded-lg p-4 cursor-pointer transition-all duration-300 ${isSelected ? "scale-120 text-white" : "bg-[white] shadow-lg hover:scale-105"}`}
+                className={`relative rounded-lg p-4 cursor-pointer transition-all duration-300 ${isSelected ? "scale-120 text-white" : " hover:scale-105"}`}
                 onClick={() => handleSelect(categoryName, artist)}
               >
                 <Nominee isSelected={isSelected} name={artist} />

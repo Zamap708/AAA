@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed z-50 flex items-center justify-between px-4 py-2 bg-white h-16 w-full bebas transition-transform ${
+      className={`fixed shadow z-50 flex items-center justify-between px-4 py-2 bg-white h-16 w-full bebas transition-transform ${
         scrollingDown ? "-translate-y-full" : "translate-y-0"
       }`}
     >
@@ -46,9 +46,9 @@ export default function Navbar() {
           <li className="hover:text-[#0089CD]">
             <Link href="/voting">Voting</Link>
           </li>
-          <li className="hover:text-[#0089CD]">
+          {/* <li className="hover:text-[#0089CD]">
             <Link href="/">Submissions</Link>
-          </li>
+          </li> */}
           <li className="hover:text-[#0089CD]">
             <Link href="/partners">Partners</Link>
           </li>
